@@ -1,0 +1,15 @@
+How to start server
+-------------------
+- open terminal and navigate to server folder
+- use node server.js command to start the server 
+
+
+How to start client
+-------------------
+- open terminal and navigate to client folder
+- user npm run dev command to start the client 
+
+
+requriments
+-----------
+node -v : v16.20.2

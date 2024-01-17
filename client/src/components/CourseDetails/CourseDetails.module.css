@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thumbnail {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.details {
+  width: 100%;
+  max-width: 600px;
+}
+
+.courseName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.instructor,
+.description,
+.enrollmentStatus,
+.duration,
+.schedule,
+.location,
+.prerequisites,
+.syllabus {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.prerequisites p,
+.syllabus p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.prerequisites ul,
+.syllabus ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.prerequisites li {
+  margin-left: 20px;
+  padding-left: 10px;
+  position: relative;
+  border-left: 2px solid #3498db;
+}
+
+.syllabus li {
+  margin-bottom: 0px;
+}
+
+.weekItem {
+  margin-bottom: 10px;
+}
+
+.week {
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: #dfdfdf56;
+}
+
+.selectedWeek {
+  border-bottom: 1px solid gray;
+}
+.weekDescription {
+  color: #555;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 8px;
+}
+
+.hedder {
+  position: relative;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.duration {
+  margin-top: 8px;
+  background-color: #ffbb64;
+  padding: 8px 40px;
+  width: fit-content;
+  font-weight: bolder;
+  position: absolute;
+  right: -40px;
+  top: 9px;
+  rotate: 45deg;
+}
+
+.backBtn {
+  width: unset;
+}
+
+@media (max-width: 600px) {
+  .week,
+  .weekDescription {
+    width: 91%;
+  }
+}

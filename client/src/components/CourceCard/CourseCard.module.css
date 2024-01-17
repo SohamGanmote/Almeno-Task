@@ -1,0 +1,72 @@
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  width: 440px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  background: white;
+  border-radius: 8px;
+  position: relative;
+}
+
+.thumbnail {
+  width: 90%;
+  border-radius: 8px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.content {
+  padding: 16px 25px;
+  padding-top: 0px;
+}
+
+h3 {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 8px;
+}
+
+p {
+  color: #555;
+  line-height: 1.4;
+}
+
+.duration {
+  margin-top: 8px;
+  background-color: #ffbb64;
+  padding: 8px 40px;
+  width: fit-content;
+  font-weight: bolder;
+  position: absolute;
+  right: -40px;
+  top: 9px;
+  rotate: 45deg;
+}
+
+.EmailInput {
+  padding: 20px;
+  width: 100%;
+}
+
+.EmailInput button {
+  background: #3652ad;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    justify-content: center;
+  }
+  .EmailInput h3 {
+    font-size: 14px;
+    width: 70%;
+  }
+}
